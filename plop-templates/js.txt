@@ -1,0 +1,11 @@
+/*
+
+module {{ name }}
+
+*/
+
+let {{ properCase name }} = {
+
+};
+
+module.exports = {{properCase name}};
