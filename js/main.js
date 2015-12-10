@@ -1,3 +1,16 @@
-import SaveForm from './util/save-form.js';
+var riot = require('riot');
 
-SaveForm.init();
+/*tags*/
+require("../tags/first-tag.tag");
+
+
+
+
+
+
+
+
+// mount
+setTimeout(function(){
+	riot.mount('*')
+},0);

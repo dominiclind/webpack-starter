@@ -1,0 +1,11 @@
+<{{dashCase name}}>
+	<!-- has matching scss file in scss/tags -->
+	<div class="{{ dashCase name}}">
+		i am tag {{ dashCase name}}
+	</div>
+
+	<script>
+		console.log('I am tag {{dashCase name}}!');
+	</script>
+
+</{{dashCase name}}>
