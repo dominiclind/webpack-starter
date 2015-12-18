@@ -33,6 +33,10 @@ module.exports = {
                'file?hash=sha512&digest=hex&name=dist/images/[hash].[ext]',
                'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
              ]
+           },
+           {
+             test: /\.(ttf|eot|woff|woff2|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+             loader: "file-loader?name=/fonts/[hash].[ext]"
            }
         ]
     }
